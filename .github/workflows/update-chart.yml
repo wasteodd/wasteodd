@@ -29,10 +29,19 @@ jobs:
           npm pkg set type="module"
           node generate-chart.js
 
-      - name: Commit and Push SVG
+    - name: Run Scripts
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          npm init -y
+          npm pkg set type="module"
+          node generate-chart.js
+          node generate-activity.js
+
+      - name: Commit and Push SVGs
         run: |
           git config --global user.name "wasteodd"
           git config --global user.email "wasteodd@users.noreply.github.com"
-          git add contributions.svg
-          git commit -m "auto: update custom contributions chart" || echo "No changes to commit"
+          git add contributions.svg activity.svg
+          git commit -m "auto: update custom charts" || echo "No changes"
           git push
