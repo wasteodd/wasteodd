@@ -38,6 +38,6 @@
   </picture>
 </p>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=y3w&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true&title_color=ffffff" alt="Activity Graph" />
+<img src="./contributions.svg" alt="My Custom Contributions" />
 
 
