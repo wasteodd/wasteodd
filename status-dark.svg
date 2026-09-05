@@ -1,4 +1,4 @@
-<svg viewBox="0 0 800 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 160" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
   <style>
     .card-bg {
       fill: #0d1117;
@@ -37,14 +37,19 @@
     }
   </style>
 
-  <rect width="800" height="120" class="card-bg" />
+  <rect width="800" height="160" class="card-bg" />
 
-  <circle cx="50" cy="40" r="6" class="highlight dot" />
-  <text x="75" y="46" class="title">Current Status</text>
+  <circle cx="50" cy="50" r="6" class="highlight dot" />
+  <text x="75" y="56" class="title">Current Vibe &amp; Status</text>
   
+  <g transform="translate(45, 80) scale(0.7)">
+    <path class="icon" d="M3 18v-6a9 9 0 0 1 18 0v6" />
+    <path class="icon" d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z" />
+  </g>
+  <text x="80" y="95" class="text">Listening to: <tspan fill="#ffffff"> Schemes of Fulfillment - Orgone</tspan></text>
 
-  <g transform="translate(45, 75) scale(0.7)">
+  <g transform="translate(45, 110) scale(0.7)">
     <path class="icon" d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
   </g>
-  <text x="80" y="90" class="text">Working on: <tspan fill="#ffffff"> Customization &amp; Code Journey</tspan></text>
+  <text x="80" y="125" class="text">Working on: <tspan fill="#ffffff"> Customization &amp; Coding</tspan></text>
 </svg>
