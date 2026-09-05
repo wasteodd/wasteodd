@@ -38,6 +38,6 @@
   </picture>
 </p>
 
-<img src="./contributions.svg?v=2" alt="My Custom Contributions" />
+<img src="./contributions.svg" alt="My Custom Contributions" />
 
 
