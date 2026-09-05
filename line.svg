@@ -3,13 +3,7 @@
     .line {
       stroke: #ffffff; 
       stroke-width: 3;
-      stroke-dasharray: 800;
-      stroke-dashoffset: 800;
-      animation: draw 3s linear infinite;
       filter: drop-shadow(0 0 5px #58a6ff);
-    }
-    @keyframes draw {
-      to { stroke-dashoffset: 0; }
     }
   </style>
   <line x1="50" y1="20" x2="750" y2="20" class="line" />
