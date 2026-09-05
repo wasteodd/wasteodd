@@ -8,9 +8,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./line-b.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./line.svg">
-    <img src="./line.svg" width="100%" alt="line">
+    <source media="(prefers-color-scheme: dark)" srcset="./line-black.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./line-white.svg">
+    <img src="./line.svg" width="100%" alt="line-white">
   </picture>
 </p>
 
@@ -24,8 +24,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./line-b.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./line.svg">
-    <img src="./line.svg" width="100%" alt="line">
+    <source media="(prefers-color-scheme: dark)" srcset="./line-black.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./line-white.svg">
+    <img src="./line.svg" width="100%" alt="line-white">
   </picture>
 </p>
