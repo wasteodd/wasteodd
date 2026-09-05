@@ -6,3 +6,7 @@
  <img src="./title.svg" width="100%">
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wasteodd&theme=tokyonight&hide_border=false&area=true" alt="activity graph" width="100%">
+</p>
+
