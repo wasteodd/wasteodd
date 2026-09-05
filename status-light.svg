@@ -1,0 +1,57 @@
+<svg viewBox="0 0 800 160" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card-bg {
+      fill: #f6f8fa;
+      stroke: #d0d7de;
+      stroke-width: 2px;
+      rx: 16px;
+    }
+    .title {
+      font-family: Georgia, serif;
+      font-size: 20px;
+      fill: #24292e;
+      font-weight: bold;
+    }
+    .text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 14px;
+      fill: #b5b9be;
+    }
+    .highlight {
+      fill: #24292e;
+    }
+    .icon {
+      fill: none;
+      stroke: #b5b9be;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .dot {
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.95); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+  </style>
+
+  <rect width="800" height="160" class="card-bg" />
+
+  <circle cx="50" cy="50" r="6" class="highlight dot" />
+  <text x="75" y="56" class="title">Current Vibe &amp; Status</text>
+  
+ 
+  <g transform="translate(45, 80) scale(0.7)">
+    <path class="icon" d="M3 18v-6a9 9 0 0 1 18 0v6" />
+    <path class="icon" d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z" />
+  </g>
+  <text x="80" y="95" class="text">Listening to: <tspan fill="#24292e">Crystal Castles - Vanished</tspan></text>
+
+
+  <g transform="translate(45, 110) scale(0.7)">
+    <path class="icon" d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
+  </g>
+  <text x="80" y="125" class="text">Working on: <tspan fill="#24292e">GitHub Profile Customization &amp; Code Journey</tspan></text>
+</svg>
