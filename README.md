@@ -38,5 +38,6 @@
   </picture>
 </p>
 
+<img src="https://ghchart.rshah.org/000000/y3w" alt="GitHub Contributions Chart" />
 
 
