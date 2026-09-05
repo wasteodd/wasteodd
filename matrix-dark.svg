@@ -1,0 +1,17 @@
+<svg viewBox="0 0 800 160" width="100%" height="160" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card-bg { fill: #0d1117; stroke: #30363d; stroke-width: 2px; rx: 16px; }
+    .title { font-family: Georgia, serif; font-size: 16px; fill: #ffffff; font-weight: bold; }
+    .dot-low { fill: #21262d; }
+    .dot-mid { fill: #8b949e; }
+    .dot-high { fill: #ffffff; filter: drop-shadow(0 0 4px #ffffff); }
+  </style>
+
+  <rect width="800" height="160" class="card-bg" />
+  <text x="40" y="45" class="title">Live Contribution Matrix</text>
+
+ 
+  <g transform="translate(40, 85)" id="matrix-grid">
+   
+  </g>
+</svg>
