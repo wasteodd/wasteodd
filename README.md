@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+  <img src="./line.svg" width="100%">
+</p>
+
+<p align="center">
  <img src="./title.svg" width="100%">
 </p>
 
