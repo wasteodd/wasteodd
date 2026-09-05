@@ -40,9 +40,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./line-2-d">
-    <source media="(prefers-color-scheme: light)" srcset="./line-2-l">
-    <img src="line-2-l" width="100%" alt="banner">
+    <source media="(prefers-color-scheme: dark)" srcset="./line-2-d.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./line-2-l.svg">
+    <img src="line-2-l.svg" width="100%" alt="banner">
   </picture>
 </p>
 
