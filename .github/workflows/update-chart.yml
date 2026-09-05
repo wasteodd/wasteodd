@@ -5,7 +5,6 @@ on:
     - cron: "*/5 * * * *"
   workflow_dispatch:
 
-# این بخش دسترسی نوشتن را به صورت قطعی برای این اکشن باز می‌کند
 permissions:
   contents: write
 
@@ -21,15 +20,7 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Run Script
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
-        run: |
-          npm init -y
-          npm pkg set type="module"
-          node generate-chart.js
-
-    - name: Run Scripts
+      - name: Run Scripts
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
