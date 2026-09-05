@@ -2,7 +2,7 @@ name: Generate Custom Contribution Chart
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" 
   workflow_dispatch: 
 
 jobs:
@@ -10,10 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v4 
+        with:
+          token: ${{ secrets.PAT_TOKEN }} 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
 
@@ -27,7 +28,7 @@ jobs:
 
       - name: Commit and Push SVG
         run: |
-          git config --global user.name "y3w"
+          git config --global user.name "wasteodd"
           git config --global user.email "your-email@example.com"
           git add contributions.svg
           git commit -m "auto: update custom contributions chart" || exit 0
