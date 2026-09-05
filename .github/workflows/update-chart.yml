@@ -2,7 +2,7 @@ name: Generate Custom Contribution Chart
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 # این بخش دسترسی نوشتن را به صورت قطعی برای این اکشن باز می‌کند
