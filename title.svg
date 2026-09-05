@@ -1,13 +1,21 @@
 
+<svg viewBox="0 0 800 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
   <style>
+    .background {
+      fill: #0d1117;
+    }
     .title-text {
       font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
-      font-size: 42px;
+      font-size: 38px;
       font-weight: 800;
       fill: #ffffff; 
     }
   </style>
   
-  <text x="40" y="55" class="title-text">it's yew's coding journey</text>
+  <rect width="800" height="120" rx="12" class="background" />
+  
+  <text x="40" y="75" class="title-text">it's yew's coding journey</text>
+</svg>
+
   
 
