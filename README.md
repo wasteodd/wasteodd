@@ -14,7 +14,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./line-b">
     <source media="(prefers-color-scheme: light)" srcset="./line.svg>
-    <img src="line.svg" width="100%" alt="banner">
+    <img src="line.svg" width="100%" alt="line">
   </picture>
 </p>
 
