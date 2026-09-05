@@ -46,4 +46,7 @@
   </picture>
 </p>
 
+<p aligm="center">
+  <img src="matrix-dark.svg" width="100%" alt="matrix">
+</p>
 
