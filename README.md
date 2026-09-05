@@ -38,6 +38,4 @@
   </picture>
 </p>
 
-<p align="center">
-  <img src="https://novatify.vercel.app/api/spotify?user=31c3jx7yw74evgbltro4givr2zqu&theme=dark" alt="Spotify Status">
-</p>
+
