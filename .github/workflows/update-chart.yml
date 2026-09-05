@@ -2,17 +2,20 @@ name: Generate Custom Contribution Chart
 
 on:
   schedule:
-    - cron: "0 0 * * *" 
-  workflow_dispatch: 
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+# این بخش دسترسی نوشتن را به صورت قطعی برای این اکشن باز می‌کند
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v4 
-        with:
-          token: ${{ secrets.PAT_TOKEN }} 
+        uses: actions/checkout@v4
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -29,7 +32,7 @@ jobs:
       - name: Commit and Push SVG
         run: |
           git config --global user.name "wasteodd"
-          git config --global user.email "your-email@example.com"
+          git config --global user.email "wasteodd@users.noreply.github.com"
           git add contributions.svg
-          git commit -m "auto: update custom contributions chart" || exit 0
+          git commit -m "auto: update custom contributions chart" || echo "No changes to commit"
           git push
