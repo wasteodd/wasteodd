@@ -1,7 +1,7 @@
 <svg viewBox="0 0 800 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
   <style>
     .background {
-      fill: #0d1117;
+      fill: transparent;
     }
     .title-text {
       font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
