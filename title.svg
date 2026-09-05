@@ -1,20 +1,21 @@
-
 <svg viewBox="0 0 800 120" width="100%" height="120" xmlns="http://www.w3.org/2000/svg">
   <style>
     .background {
-      fill: #0d1117;
+      fill: transparent; 
     }
     .title-text {
       font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
       font-size: 38px;
       font-weight: 800;
-      fill: #ffffff; 
+      fill: #ffffff; /* رنگ متن */
+      dominant-baseline: middle; /* کلید وسط کردن عمودی */
     }
   </style>
   
-  <rect width="800" height="120" rx="12" class="background" />
+  <rect width="800" height="120" class="background" />
   
-  <text x="40" y="75" class="title-text">it's yew's coding journey</text>
+  
+  <text x="400" y="60" class="title-text" text-anchor="middle">it's yew's coding journey</text>
 </svg>
 
   
