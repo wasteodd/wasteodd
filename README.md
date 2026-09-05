@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
- <img src="./title.svg?v=2" width="100%">
+ <img src="./title.svg" width="100%">
 </p>
 
 <p align="center">
