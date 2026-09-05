@@ -67,5 +67,5 @@
 
 <img src="./activity.svg" alt="Living Activity Tree" width="100%" >
 
-<img src="./tech-dark.svg" alt="tech" width="100%" >
+
 
