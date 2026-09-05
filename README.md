@@ -12,6 +12,14 @@
 
 <p align="center">
   <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./line-b">
+    <source media="(prefers-color-scheme: light)" srcset="./line.svg>
+    <img src="line.svg" width="100%" alt="banner">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./title-vb.svg">
     <source media="(prefers-color-scheme: light)" srcset="./title-v2.svg">
     <img src="./title-v2.svg" width="100%" alt="title">
