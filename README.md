@@ -33,7 +33,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./tech-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./tech-lightt.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./tech-light.svg">
     <img src="./tech-light.svg" width="100%" alt="tech">
   </picture>
 </p>
