@@ -4,7 +4,7 @@
       font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
       font-size: 36px;
       font-weight: 800;
-      fill: #b1b6be; 
+      fill: #ced3da; 
       dominant-baseline: middle;
     }
   </style>
