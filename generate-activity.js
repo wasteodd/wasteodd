@@ -1,0 +1,134 @@
+import fs from 'fs';
+
+const TOKEN = process.env.GITHUB_TOKEN;
+const USERNAME = 'wasteodd';
+
+const query = `
+  query {
+    user(login: "${USERNAME}") {
+      contributionsCollection {
+        totalCommitContributions
+        totalPullRequestContributions
+        totalPullRequestReviewContributions
+        totalIssueContributions
+      }
+    }
+  }
+`;
+
+async function fetchData() {
+  const response = await fetch('https://api.github.com/graphql', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${TOKEN}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ query })
+  });
+  
+  const json = await response.json();
+  return json.data.user.contributionsCollection;
+}
+
+function generateDynamicTree(collection) {
+  const commits = collection.totalCommitContributions || 0;
+  const prs = collection.totalPullRequestContributions || 0;
+  const reviews = collection.totalPullRequestReviewContributions || 0;
+  const issues = collection.totalIssueContributions || 0;
+
+  const total = (commits + prs + reviews + issues) || 1;
+  const pCommits = Math.round((commits / total) * 100);
+  const pPRs = Math.round((prs / total) * 100);
+  const pReviews = Math.round((reviews / total) * 100);
+  const pIssues = Math.round((issues / total) * 100);
+
+  const getScale = (pct) => (0.2 + (pct / 100) * 1.4).toFixed(2);
+  const sC = getScale(pCommits);
+  const sP = getScale(pPRs);
+  const sR = getScale(pReviews);
+  const sI = getScale(pIssues);
+
+  let svg = `<svg width="850" height="420" viewBox="0 0 850 420" xmlns="http://www.w3.org/2000/svg">\n`;
+  svg += `<style>
+    .bg { fill: #0a0a0a; }
+    .title { font-family: 'Courier New', monospace; font-size: 15px; fill: #ffffff; letter-spacing: 3px; font-weight: bold; }
+    .subtitle { font-family: 'Courier New', monospace; font-size: 10px; fill: #666; letter-spacing: 1.5px; }
+    .leaf-white { fill: #ffffff; filter: drop-shadow(0px 0px 5px rgba(255,255,255,0.6)); animation: pulse 3s infinite alternate; }
+    .leaf-gray { fill: #555555; }
+    .leaf-dark { fill: #1a1a1a; stroke: #333; stroke-width: 0.5; }
+    .pct-val { font-family: 'Courier New', monospace; font-size: 26px; font-weight: bold; fill: #ffffff; }
+    .cat-name { font-family: 'Courier New', monospace; font-size: 12px; fill: #bbbbbb; letter-spacing: 2px; font-weight: bold; }
+    .cat-count { font-family: 'Courier New', monospace; font-size: 11px; fill: #777777; }
+    .branch-anim { opacity: 0; animation: growOut 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    @keyframes growOut { 0% { transform: scale(0); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+    @keyframes pulse { 0% { filter: drop-shadow(0px 0px 3px rgba(255,255,255,0.4)); } 100% { filter: drop-shadow(0px 0px 10px rgba(255,255,255,1)); } }
+  </style>\n`;
+
+  svg += `<rect width="100%" height="100%" class="bg" />\n`;
+  svg += `<g transform="translate(40, 45)"><text x="0" y="0" class="title">THE LIVING ACTIVITY TREE</text><text x="0" y="20" class="subtitle">BRANCHES SCALE DYNAMICALLY BY METRIC VOLUME</text></g>\n`;
+
+  // ساختار یک شاخه پایه و ثابت
+  svg += `<defs>
+    <g id="master-branch">
+        <path d="M 0,0 Q 20,-50 5,-100 T 15,-170" fill="none" stroke="#e0e0e0" stroke-width="7" stroke-linecap="round"/>
+        <path d="M 12,-35 Q 35,-50 45,-40" fill="none" stroke="#999" stroke-width="4" stroke-linecap="round"/>
+        <path d="M 2,-95 Q -25,-105 -35,-90" fill="none" stroke="#999" stroke-width="3" stroke-linecap="round"/>
+        <path d="M 10,-135 Q 30,-140 35,-125" fill="none" stroke="#999" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="15" cy="-170" r="22" class="leaf-white"/>
+        <circle cx="20" cy="-165" r="16" class="leaf-gray"/>
+        <circle cx="5" cy="-158" r="12" class="leaf-dark"/>
+        <circle cx="45" cy="-40" r="14" class="leaf-white"/>
+        <circle cx="-35" cy="-90" r="12" class="leaf-white"/>
+        <circle cx="35" cy="-125" r="10" class="leaf-white"/>
+    </g>
+  </defs>\n`;
+
+  svg += `<path d="M 400,420 C 400,350 415,280 425,250 C 435,280 450,350 450,420 Z" fill="#1a1a1a" />\n`;
+  svg += `<path d="M 425,250 L 425,420" stroke="#333" stroke-width="1.5" stroke-dasharray="6,4" />\n`; 
+
+  svg += `<g class="branch-anim" style="transform-origin: 425px 250px; animation-delay: 0.2s;">
+            <use href="#master-branch" transform="translate(425, 250) scale(${sC}, ${sC}) rotate(25)" />
+          </g>\n`;
+  svg += `<g class="branch-anim" style="transform-origin: 425px 250px; animation-delay: 0.4s;">
+            <use href="#master-branch" transform="translate(425, 250) scale(-${sP}, ${sP}) rotate(25)" />
+          </g>\n`;
+  svg += `<g class="branch-anim" style="transform-origin: 425px 265px; animation-delay: 0.6s;">
+            <use href="#master-branch" transform="translate(425, 265) scale(${sR}, ${sR}) rotate(75)" />
+          </g>\n`;
+  svg += `<g class="branch-anim" style="transform-origin: 425px 265px; animation-delay: 0.8s;">
+            <use href="#master-branch" transform="translate(425, 265) scale(-${sI}, ${sI}) rotate(75)" />
+          </g>\n`;
+
+  // متن‌های گوشه‌های تصویر
+  svg += `<text x="810" y="80" class="pct-val" text-anchor="end">${pCommits}%</text>\n`;
+  svg += `<text x="810" y="100" class="cat-name" text-anchor="end">COMMITS</text>\n`;
+  svg += `<text x="810" y="115" class="cat-count" text-anchor="end">${commits} activities</text>\n`;
+
+  svg += `<text x="40" y="110" class="pct-val" text-anchor="start">${pPRs}%</text>\n`;
+  svg += `<text x="40" y="130" class="cat-name" text-anchor="start">PULL REQUESTS</text>\n`;
+  svg += `<text x="40" y="145" class="cat-count" text-anchor="start">${prs} activities</text>\n`;
+
+  svg += `<text x="810" y="320" class="pct-val" text-anchor="end">${pReviews}%</text>\n`;
+  svg += `<text x="810" y="340" class="cat-name" text-anchor="end">CODE REVIEWS</text>\n`;
+  svg += `<text x="810" y="355" class="cat-count" text-anchor="end">${reviews} activities</text>\n`;
+
+  svg += `<text x="40" y="320" class="pct-val" text-anchor="start">${pIssues}%</text>\n`;
+  svg += `<text x="40" y="340" class="cat-name" text-anchor="start">ISSUES</text>\n`;
+  svg += `<text x="40" y="355" class="cat-count" text-anchor="start">${issues} activities</text>\n`;
+
+  svg += `</svg>`;
+  return svg;
+}
+
+async function main() {
+  try {
+    const collection = await fetchData();
+    const activitySvg = generateDynamicTree(collection);
+    fs.writeFileSync('activity.svg', activitySvg);
+    console.log('Activity SVG generated successfully!');
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
+
+main();
