@@ -3,5 +3,5 @@
  <img src="https://i.pinimg.com/736x/d5/c0/8d/d5c08dd9726fd58422ed4484d752a699.jpg" alt="banner" width="100%">
 </p>
 
-<h1 align="center">it's yew's coding journey</h1>
+<h1 style="font-family: Georgia, Cambria, 'Times New Roman', Times, serif;">it's yew's coding journey</h1>
 
