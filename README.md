@@ -7,10 +7,6 @@
 </p>
 
 <p align="center">
-  <img src="./line.svg" width="100%" alt="line">
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./line-b.svg">
     <source media="(prefers-color-scheme: light)" srcset="./line.svg">
@@ -27,5 +23,9 @@
 </p>
 
 <p align="center">
-  <img src="./line.svg" width="100%" alt="line">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./line-b.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./line.svg">
+    <img src="./line.svg" width="100%" alt="line">
+  </picture>
 </p>
