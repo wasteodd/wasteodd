@@ -58,39 +58,53 @@
     </linearGradient>
   </defs>
 
-  <g class="float d1" transform="translate(170, 35)">
-    <rect x="0" y="0" width="70" height="70" rx="20" class="glass-box" filter="url(#shadow)" />
-    <text x="35" y="38" class="icon-text">HTML</text>
-    <text x="35" y="95" class="label">HTML5</text>
-  </g>
-
-  <g class="float d2" transform="translate(280, 35)">
-    <rect x="0" y="0" width="70" height="70" rx="20" class="glass-box" filter="url(#shadow)" />
-    <text x="35" y="38" class="icon-text">CSS</text>
-    <text x="35" y="95" class="label">CSS3</text>
-  </g>
-
-  <g class="float d3" transform="translate(390, 35)">
-    <rect x="0" y="0" width="70" height="70" rx="20" class="glass-box" filter="url(#shadow)" />
-    <text x="35" y="38" class="icon-text" font-size="24">JS</text>
-    <text x="35" y="95" class="label">JAVASCRIPT</text>
-  </g>
-
-  <g class="float d4" transform="translate(500, 35)">
-    <rect x="0" y="0" width="70" height="70" rx="20" class="glass-box" filter="url(#shadow)" />
-    <g transform="translate(35, 35)">
-      <ellipse rx="15" ry="5.5" class="icon-path" stroke-width="2.5" transform="rotate(30)"/>
-      <ellipse rx="15" ry="5.5" class="icon-path" stroke-width="2.5" transform="rotate(90)"/>
-      <ellipse rx="15" ry="5.5" class="icon-path" stroke-width="2.5" transform="rotate(150)"/>
-      <circle cx="0" cy="0" r="3.5" class="icon-fill"/>
+  <!-- HTML -->
+  <g transform="translate(210, 35)">
+    <g class="float d1">
+      <rect x="0" y="0" width="70" height="70" rx="20" class="glass-box" filter="url(#shadow)" />
+      <text x="35" y="38" class="icon-text">HTML</text>
+      <text x="35" y="95" class="label">HTML</text>
     </g>
-    <text x="35" y="95" class="label">REACT</text>
   </g>
 
-  <g class="float d5" transform="translate(610, 35)">
-    <rect x="0" y="0" width="70" height="70" rx="20" class="glass-box" filter="url(#shadow)" />
-    <text x="35" y="38" class="icon-text" font-size="20">C++</text>
-    <text x="35" y="95" class="label">C PLUS PLUS</text>
+  <!-- CSS -->
+  <g transform="translate(300, 35)">
+    <g class="float d2">
+      <rect x="0" y="0" width="70" height="70" rx="20" class="glass-box" filter="url(#shadow)" />
+      <text x="35" y="38" class="icon-text">CSS</text>
+      <text x="35" y="95" class="label">CSS</text>
+    </g>
   </g>
 
+  <!-- JS -->
+  <g transform="translate(390, 35)">
+    <g class="float d3">
+      <rect x="0" y="0" width="70" height="70" rx="20" class="glass-box" filter="url(#shadow)" />
+      <text x="35" y="38" class="icon-text" font-size="24">JS</text>
+      <text x="35" y="95" class="label">JAVASCRIPT</text>
+    </g>
+  </g>
+
+  <!-- React -->
+  <g transform="translate(480, 35)">
+    <g class="float d4">
+      <rect x="0" y="0" width="70" height="70" rx="20" class="glass-box" filter="url(#shadow)" />
+      <g transform="translate(35, 35)">
+        <ellipse rx="15" ry="5.5" class="icon-path" stroke-width="2.5" transform="rotate(30)"/>
+        <ellipse rx="15" ry="5.5" class="icon-path" stroke-width="2.5" transform="rotate(90)"/>
+        <ellipse rx="15" ry="5.5" class="icon-path" stroke-width="2.5" transform="rotate(150)"/>
+        <circle cx="0" cy="0" r="3.5" class="icon-fill"/>
+      </g>
+      <text x="35" y="95" class="label">REACT</text>
+    </g>
+  </g>
+
+  <!-- C++ -->
+  <g transform="translate(570, 35)">
+    <g class="float d5">
+      <rect x="0" y="0" width="70" height="70" rx="20" class="glass-box" filter="url(#shadow)" />
+      <text x="35" y="38" class="icon-text" font-size="20">C++</text>
+      <text x="35" y="95" class="label">C++</text>
+    </g>
+  </g>
 </svg>
