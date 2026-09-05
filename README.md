@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://i.pinimg.com/1200x/59/6b/2f/596b2f17146169cdedb8a83237811ee9.jpg">
+    <source media="(prefers-color-scheme: dark)" srcset="./background.jpg">
     <source media="(prefers-color-scheme: light)" srcset="./title-light.svg">
     <img src="./title-dark.svg" width="100%">
   </picture>
