@@ -32,8 +32,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./status-darkk.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./status-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./status-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./status-lightt.svg">
     <img src="./status-light.svg" width="100%" alt="Status Card">
   </picture>
 </p>
