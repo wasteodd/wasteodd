@@ -1,0 +1,17 @@
+<svg width="100%" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title-text {
+      font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+      font-size: 42px;
+      font-weight: 800;
+      fill: #ffffff; 
+    }
+  </style>
+
+  <!-- پس‌زمینه اختیاری (اگر می‌خوای پشت متن کادر یا پس‌زمینه رنگی باشه) -->
+  <rect width="100%" height="100%" fill="#0d1117" rx="12px" />
+
+  <!-- متن اصلی (جایگزین h1) -->
+  <text x="40" y="55" class="title-text">it's yew's coding journey</text>
+  
+
