@@ -47,6 +47,16 @@
 </p>
 
 <img src="./contributions.svg?v=10" alt="My Custom Contributions" />
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./line-3-d.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./line-3-l.svg">
+    <img src="line-3-l.svg" width="100%" alt="banner">
+  </picture>
+</p>
+
+
 <img src="./activity.svg" alt="Living Activity Tree" width="100%" />
 
 
