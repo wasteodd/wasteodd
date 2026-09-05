@@ -39,5 +39,6 @@
 </p>
 
 <img src="./contributions.svg?v=10" alt="My Custom Contributions" />
+<img src="./activity.svg" alt="Living Activity Tree" width="100%" />
 
 
