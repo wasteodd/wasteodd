@@ -46,7 +46,7 @@
   </picture>
 </p>
 
-<p aligm="center">
-  <img src="matrix-dark.svg" width="100%" alt="matrix">
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=wasteodd&show_icons=true&theme=transparent&hide_border=true&count_private=true&title_color=ffffff&text_color=b2c1d8&icon_color=ffffff" alt="Stats">
 </p>
 
