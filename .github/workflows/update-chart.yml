@@ -1,0 +1,34 @@
+name: Generate Custom Contribution Chart
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Run Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          npm init -y
+          npm pkg set type="module"
+          node generate-chart.js
+
+      - name: Commit and Push SVG
+        run: |
+          git config --global user.name "y3w"
+          git config --global user.email "your-email@example.com"
+          git add contributions.svg
+          git commit -m "auto: update custom contributions chart" || exit 0
+          git push
