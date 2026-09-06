@@ -95,7 +95,7 @@
     <polygon points="-234,-153 -222,-147 -234,-141 -246,-147" class="tile-top" />
     <polygon points="-246,-147 -234,-141 -234,-137 -246,-143" class="tile-left" />
     <polygon points="-234,-141 -222,-147 -222,-143 -234,-137" class="tile-right" />
-    <g class="grow" style="transform-origin: -234px -147px; animation-delay: 0.27s;">
+    <g class="grow" style="transform-origin: -234px -147px; animation-delay: 0.50s;">
       <path d="M-234,-147 Q-236,-152 -238,-155" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-238" cy="-155" r="1.5" class="leaf"/>
       <path d="M-234,-149 Q-232,-151 -230,-153" class="stem" stroke-width="1" fill="none"/>
@@ -116,7 +116,7 @@
     <polygon points="-294,-147 -282,-141 -294,-135 -306,-141" class="tile-top" />
     <polygon points="-306,-141 -294,-135 -294,-131 -306,-137" class="tile-left" />
     <polygon points="-294,-135 -282,-141 -282,-137 -294,-131" class="tile-right" />
-    <g class="grow" style="transform-origin: -294px -141px; animation-delay: 0.19s;">
+    <g class="grow" style="transform-origin: -294px -141px; animation-delay: 0.49s;">
       <path d="M-294,-141 Q-296,-146 -298,-149" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-298" cy="-149" r="1.5" class="leaf"/>
       <path d="M-294,-143 Q-292,-145 -290,-147" class="stem" stroke-width="1" fill="none"/>
@@ -177,7 +177,7 @@
     <polygon points="-342,-135 -330,-129 -342,-123 -354,-129" class="tile-top" />
     <polygon points="-354,-129 -342,-123 -342,-119 -354,-125" class="tile-left" />
     <polygon points="-342,-123 -330,-129 -330,-125 -342,-119" class="tile-right" />
-    <g class="grow" style="transform-origin: -342px -129px; animation-delay: 0.46s;">
+    <g class="grow" style="transform-origin: -342px -129px; animation-delay: 0.61s;">
       <path d="M-342,-129 Q-344,-134 -346,-137" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-346" cy="-137" r="1.5" class="leaf"/>
       <path d="M-342,-131 Q-340,-133 -338,-135" class="stem" stroke-width="1" fill="none"/>
@@ -218,7 +218,7 @@
     <polygon points="-330,-129 -318,-123 -330,-117 -342,-123" class="tile-top" />
     <polygon points="-342,-123 -330,-117 -330,-113 -342,-119" class="tile-left" />
     <polygon points="-330,-117 -318,-123 -318,-119 -330,-113" class="tile-right" />
-    <g class="grow" style="transform-origin: -330px -123px; animation-delay: 1.47s;">
+    <g class="grow" style="transform-origin: -330px -123px; animation-delay: 1.35s;">
       <path d="M-330,-123 Q-332,-128 -334,-131" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-334" cy="-131" r="1.5" class="leaf"/>
       <path d="M-330,-125 Q-328,-127 -326,-129" class="stem" stroke-width="1" fill="none"/>
@@ -239,7 +239,7 @@
     <polygon points="-258,-129 -246,-123 -258,-117 -270,-123" class="tile-top" />
     <polygon points="-270,-123 -258,-117 -258,-113 -270,-119" class="tile-left" />
     <polygon points="-258,-117 -246,-123 -246,-119 -258,-113" class="tile-right" />
-    <g class="grow" style="transform-origin: -258px -123px; animation-delay: 1.00s;">
+    <g class="grow" style="transform-origin: -258px -123px; animation-delay: 0.88s;">
       <path d="M-258,-123 Q-260,-128 -262,-131" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-262" cy="-131" r="1.5" class="leaf"/>
       <path d="M-258,-125 Q-256,-127 -254,-129" class="stem" stroke-width="1" fill="none"/>
@@ -255,7 +255,7 @@
     <polygon points="-210,-129 -198,-123 -210,-117 -222,-123" class="tile-top" />
     <polygon points="-222,-123 -210,-117 -210,-113 -222,-119" class="tile-left" />
     <polygon points="-210,-117 -198,-123 -198,-119 -210,-113" class="tile-right" />
-    <g class="grow" style="transform-origin: -210px -123px; animation-delay: 0.17s;">
+    <g class="grow" style="transform-origin: -210px -123px; animation-delay: 0.43s;">
       <path d="M-210,-123 Q-212,-128 -214,-131" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-214" cy="-131" r="1.5" class="leaf"/>
       <path d="M-210,-125 Q-208,-127 -206,-129" class="stem" stroke-width="1" fill="none"/>
@@ -296,7 +296,7 @@
     <polygon points="-198,-123 -186,-117 -198,-111 -210,-117" class="tile-top" />
     <polygon points="-210,-117 -198,-111 -198,-107 -210,-113" class="tile-left" />
     <polygon points="-198,-111 -186,-117 -186,-113 -198,-107" class="tile-right" />
-    <g class="grow" style="transform-origin: -198px -117px; animation-delay: 0.59s;">
+    <g class="grow" style="transform-origin: -198px -117px; animation-delay: 0.95s;">
       <path d="M-198,-117 Q-200,-122 -202,-125" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-202" cy="-125" r="1.5" class="leaf"/>
       <path d="M-198,-119 Q-196,-121 -194,-123" class="stem" stroke-width="1" fill="none"/>
@@ -317,7 +317,7 @@
     <polygon points="-282,-117 -270,-111 -282,-105 -294,-111" class="tile-top" />
     <polygon points="-294,-111 -282,-105 -282,-101 -294,-107" class="tile-left" />
     <polygon points="-282,-105 -270,-111 -270,-107 -282,-101" class="tile-right" />
-    <g class="grow" style="transform-origin: -282px -111px; animation-delay: 1.10s;">
+    <g class="grow" style="transform-origin: -282px -111px; animation-delay: 0.65s;">
       <path d="M-282,-111 Q-284,-116 -286,-119" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-286" cy="-119" r="1.5" class="leaf"/>
       <path d="M-282,-113 Q-280,-115 -278,-117" class="stem" stroke-width="1" fill="none"/>
@@ -358,7 +358,7 @@
     <polygon points="-270,-111 -258,-105 -270,-99 -282,-105" class="tile-top" />
     <polygon points="-282,-105 -270,-99 -270,-95 -282,-101" class="tile-left" />
     <polygon points="-270,-99 -258,-105 -258,-101 -270,-95" class="tile-right" />
-    <g class="grow" style="transform-origin: -270px -105px; animation-delay: 0.31s;">
+    <g class="grow" style="transform-origin: -270px -105px; animation-delay: 0.96s;">
       <path d="M-270,-105 Q-272,-110 -274,-113" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-274" cy="-113" r="1.5" class="leaf"/>
       <path d="M-270,-107 Q-268,-109 -266,-111" class="stem" stroke-width="1" fill="none"/>
@@ -414,7 +414,7 @@
     <polygon points="-186,-105 -174,-99 -186,-93 -198,-99" class="tile-top" />
     <polygon points="-198,-99 -186,-93 -186,-89 -198,-95" class="tile-left" />
     <polygon points="-186,-93 -174,-99 -174,-95 -186,-89" class="tile-right" />
-    <g class="grow" style="transform-origin: -186px -99px; animation-delay: 1.02s;">
+    <g class="grow" style="transform-origin: -186px -99px; animation-delay: 0.32s;">
       <path d="M-186,-99 Q-188,-104 -190,-107" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-190" cy="-107" r="1.5" class="leaf"/>
       <path d="M-186,-101 Q-184,-103 -182,-105" class="stem" stroke-width="1" fill="none"/>
@@ -450,7 +450,7 @@
     <polygon points="-198,-99 -186,-93 -198,-87 -210,-93" class="tile-top" />
     <polygon points="-210,-93 -198,-87 -198,-83 -210,-89" class="tile-left" />
     <polygon points="-198,-87 -186,-93 -186,-89 -198,-83" class="tile-right" />
-    <g class="grow" style="transform-origin: -198px -93px; animation-delay: 0.39s;">
+    <g class="grow" style="transform-origin: -198px -93px; animation-delay: 1.01s;">
       <path d="M-198,-93 Q-200,-98 -202,-101" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-202" cy="-101" r="1.5" class="leaf"/>
       <path d="M-198,-95 Q-196,-97 -194,-99" class="stem" stroke-width="1" fill="none"/>
@@ -491,7 +491,7 @@
     <polygon points="-186,-93 -174,-87 -186,-81 -198,-87" class="tile-top" />
     <polygon points="-198,-87 -186,-81 -186,-77 -198,-83" class="tile-left" />
     <polygon points="-186,-81 -174,-87 -174,-83 -186,-77" class="tile-right" />
-    <g class="grow" style="transform-origin: -186px -87px; animation-delay: 1.34s;">
+    <g class="grow" style="transform-origin: -186px -87px; animation-delay: 0.39s;">
       <line x1="-186" y1="-87" x2="-186" y2="-99" class="stem" stroke-width="1.5" />
       <polygon points="-186,-103 -181,-95 -191,-95" class="leaf" />
       <polygon points="-186,-99 -182,-92 -190,-92" class="leaf" />
@@ -511,7 +511,7 @@
     <polygon points="-114,-93 -102,-87 -114,-81 -126,-87" class="tile-top" />
     <polygon points="-126,-87 -114,-81 -114,-77 -126,-83" class="tile-left" />
     <polygon points="-114,-81 -102,-87 -102,-83 -114,-77" class="tile-right" />
-    <g class="grow" style="transform-origin: -114px -87px; animation-delay: 0.51s;">
+    <g class="grow" style="transform-origin: -114px -87px; animation-delay: 1.06s;">
       <path d="M-114,-87 Q-116,-92 -118,-95" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-118" cy="-95" r="1.5" class="leaf"/>
       <path d="M-114,-89 Q-112,-91 -110,-93" class="stem" stroke-width="1" fill="none"/>
@@ -607,7 +607,7 @@
     <polygon points="-150,-75 -138,-69 -150,-63 -162,-69" class="tile-top" />
     <polygon points="-162,-69 -150,-63 -150,-59 -162,-65" class="tile-left" />
     <polygon points="-150,-63 -138,-69 -138,-65 -150,-59" class="tile-right" />
-    <g class="grow" style="transform-origin: -150px -69px; animation-delay: 0.70s;">
+    <g class="grow" style="transform-origin: -150px -69px; animation-delay: 0.91s;">
       <line x1="-150" y1="-69" x2="-150" y2="-81" class="stem" stroke-width="1.5" />
       <polygon points="-150,-85 -145,-77 -155,-77" class="leaf" />
       <polygon points="-150,-81 -146,-74 -154,-74" class="leaf" />
@@ -1397,7 +1397,7 @@
     <polygon points="186,57 198,63 186,69 174,63" class="tile-top" />
     <polygon points="174,63 186,69 186,73 174,67" class="tile-left" />
     <polygon points="186,69 198,63 198,67 186,73" class="tile-right" />
-    <g class="grow" style="transform-origin: 186px 63px; animation-delay: 1.20s;">
+    <g class="grow" style="transform-origin: 186px 63px; animation-delay: 0.87s;">
       <line x1="186" y1="63" x2="186" y2="51" class="stem" stroke-width="1.5" />
       <polygon points="186,47 191,55 181,55" class="leaf" />
       <polygon points="186,51 190,58 182,58" class="leaf" />
@@ -1857,11 +1857,10 @@
     <polygon points="342,135 354,141 342,147 330,141" class="tile-top" />
     <polygon points="330,141 342,147 342,151 330,145" class="tile-left" />
     <polygon points="342,147 354,141 354,145 342,151" class="tile-right" />
-    <g class="grow" style="transform-origin: 342px 141px; animation-delay: 0.98s;">
-      <path d="M342,141 Q340,136 338,133" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="338" cy="133" r="1.5" class="leaf"/>
-      <path d="M342,139 Q344,137 346,135" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="346" cy="135" r="1.5" class="leaf"/>
+    <g class="grow" style="transform-origin: 342px 141px; animation-delay: 1.02s;">
+      <line x1="342" y1="141" x2="342" y2="129" class="stem" stroke-width="1.5" />
+      <polygon points="342,125 347,133 337,133" class="leaf" />
+      <polygon points="342,129 346,136 338,136" class="leaf" />
     </g>
   </g>
   <g class="hover-float" style="transform-origin: 210px 141px;">
@@ -1938,7 +1937,7 @@
     <polygon points="258,165 270,171 258,177 246,171" class="tile-top" />
     <polygon points="246,171 258,177 258,181 246,175" class="tile-left" />
     <polygon points="258,177 270,171 270,175 258,181" class="tile-right" />
-    <g class="grow" style="transform-origin: 258px 171px; animation-delay: 1.41s;">
+    <g class="grow" style="transform-origin: 258px 171px; animation-delay: 0.54s;">
       <path d="M258,171 Q257,161 258,151" class="stem" stroke-width="2.5" fill="none"/>
       <path d="M258,161 Q253,156 250,153" class="stem" stroke-width="1.5" fill="none"/>
       <path d="M258,157 Q263,153 266,149" class="stem" stroke-width="1.5" fill="none"/>
