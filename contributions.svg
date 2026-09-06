@@ -95,6 +95,12 @@
     <polygon points="-234,-153 -222,-147 -234,-141 -246,-147" class="tile-top" />
     <polygon points="-246,-147 -234,-141 -234,-137 -246,-143" class="tile-left" />
     <polygon points="-234,-141 -222,-147 -222,-143 -234,-137" class="tile-right" />
+    <g class="grow" style="transform-origin: -234px -147px; animation-delay: 1.45s;">
+      <path d="M-234,-147 Q-236,-152 -238,-155" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-238" cy="-155" r="1.5" class="leaf"/>
+      <path d="M-234,-149 Q-232,-151 -230,-153" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-230" cy="-153" r="1.5" class="leaf"/>
+    </g>
   </g>
   <g class="hover-float" style="transform-origin: -342px -147px;">
     <polygon points="-342,-147 -330,-141 -342,-135 -354,-141" class="tile-top" />
@@ -110,6 +116,12 @@
     <polygon points="-294,-147 -282,-141 -294,-135 -306,-141" class="tile-top" />
     <polygon points="-306,-141 -294,-135 -294,-131 -306,-137" class="tile-left" />
     <polygon points="-294,-135 -282,-141 -282,-137 -294,-131" class="tile-right" />
+    <g class="grow" style="transform-origin: -294px -141px; animation-delay: 0.70s;">
+      <path d="M-294,-141 Q-296,-146 -298,-149" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-298" cy="-149" r="1.5" class="leaf"/>
+      <path d="M-294,-143 Q-292,-145 -290,-147" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-290" cy="-147" r="1.5" class="leaf"/>
+    </g>
   </g>
   <g class="hover-float" style="transform-origin: -270px -147px;">
     <polygon points="-270,-147 -258,-141 -270,-135 -282,-141" class="tile-top" />
@@ -125,12 +137,6 @@
     <polygon points="-222,-147 -210,-141 -222,-135 -234,-141" class="tile-top" />
     <polygon points="-234,-141 -222,-135 -222,-131 -234,-137" class="tile-left" />
     <polygon points="-222,-135 -210,-141 -210,-137 -222,-131" class="tile-right" />
-    <g class="grow" style="transform-origin: -222px -141px; animation-delay: 1.04s;">
-      <path d="M-222,-141 Q-224,-146 -226,-149" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-226" cy="-149" r="1.5" class="leaf"/>
-      <path d="M-222,-143 Q-220,-145 -218,-147" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-218" cy="-147" r="1.5" class="leaf"/>
-    </g>
   </g>
   <g class="hover-float" style="transform-origin: -354px -141px;">
     <polygon points="-354,-141 -342,-135 -354,-129 -366,-135" class="tile-top" />
@@ -151,12 +157,6 @@
     <polygon points="-282,-141 -270,-135 -282,-129 -294,-135" class="tile-top" />
     <polygon points="-294,-135 -282,-129 -282,-125 -294,-131" class="tile-left" />
     <polygon points="-282,-129 -270,-135 -270,-131 -282,-125" class="tile-right" />
-    <g class="grow" style="transform-origin: -282px -135px; animation-delay: 0.45s;">
-      <path d="M-282,-135 Q-284,-140 -286,-143" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-286" cy="-143" r="1.5" class="leaf"/>
-      <path d="M-282,-137 Q-280,-139 -278,-141" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-278" cy="-141" r="1.5" class="leaf"/>
-    </g>
   </g>
   <g class="hover-float" style="transform-origin: -258px -141px;">
     <polygon points="-258,-141 -246,-135 -258,-129 -270,-135" class="tile-top" />
@@ -177,6 +177,12 @@
     <polygon points="-342,-135 -330,-129 -342,-123 -354,-129" class="tile-top" />
     <polygon points="-354,-129 -342,-123 -342,-119 -354,-125" class="tile-left" />
     <polygon points="-342,-123 -330,-129 -330,-125 -342,-119" class="tile-right" />
+    <g class="grow" style="transform-origin: -342px -129px; animation-delay: 1.35s;">
+      <path d="M-342,-129 Q-344,-134 -346,-137" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-346" cy="-137" r="1.5" class="leaf"/>
+      <path d="M-342,-131 Q-340,-133 -338,-135" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-338" cy="-135" r="1.5" class="leaf"/>
+    </g>
   </g>
   <g class="hover-float" style="transform-origin: -318px -135px;">
     <polygon points="-318,-135 -306,-129 -318,-123 -330,-129" class="tile-top" />
@@ -212,7 +218,7 @@
     <polygon points="-330,-129 -318,-123 -330,-117 -342,-123" class="tile-top" />
     <polygon points="-342,-123 -330,-117 -330,-113 -342,-119" class="tile-left" />
     <polygon points="-330,-117 -318,-123 -318,-119 -330,-113" class="tile-right" />
-    <g class="grow" style="transform-origin: -330px -123px; animation-delay: 0.23s;">
+    <g class="grow" style="transform-origin: -330px -123px; animation-delay: 1.22s;">
       <path d="M-330,-123 Q-332,-128 -334,-131" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-334" cy="-131" r="1.5" class="leaf"/>
       <path d="M-330,-125 Q-328,-127 -326,-129" class="stem" stroke-width="1" fill="none"/>
@@ -233,6 +239,12 @@
     <polygon points="-258,-129 -246,-123 -258,-117 -270,-123" class="tile-top" />
     <polygon points="-270,-123 -258,-117 -258,-113 -270,-119" class="tile-left" />
     <polygon points="-258,-117 -246,-123 -246,-119 -258,-113" class="tile-right" />
+    <g class="grow" style="transform-origin: -258px -123px; animation-delay: 0.81s;">
+      <path d="M-258,-123 Q-260,-128 -262,-131" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-262" cy="-131" r="1.5" class="leaf"/>
+      <path d="M-258,-125 Q-256,-127 -254,-129" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-254" cy="-129" r="1.5" class="leaf"/>
+    </g>
   </g>
   <g class="hover-float" style="transform-origin: -234px -129px;">
     <polygon points="-234,-129 -222,-123 -234,-117 -246,-123" class="tile-top" />
@@ -243,6 +255,12 @@
     <polygon points="-210,-129 -198,-123 -210,-117 -222,-123" class="tile-top" />
     <polygon points="-222,-123 -210,-117 -210,-113 -222,-119" class="tile-left" />
     <polygon points="-210,-117 -198,-123 -198,-119 -210,-113" class="tile-right" />
+    <g class="grow" style="transform-origin: -210px -123px; animation-delay: 0.89s;">
+      <path d="M-210,-123 Q-212,-128 -214,-131" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-214" cy="-131" r="1.5" class="leaf"/>
+      <path d="M-210,-125 Q-208,-127 -206,-129" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-206" cy="-129" r="1.5" class="leaf"/>
+    </g>
   </g>
   <g class="hover-float" style="transform-origin: -186px -129px;">
     <polygon points="-186,-129 -174,-123 -186,-117 -198,-123" class="tile-top" />
@@ -253,12 +271,6 @@
     <polygon points="-318,-123 -306,-117 -318,-111 -330,-117" class="tile-top" />
     <polygon points="-330,-117 -318,-111 -318,-107 -330,-113" class="tile-left" />
     <polygon points="-318,-111 -306,-117 -306,-113 -318,-107" class="tile-right" />
-    <g class="grow" style="transform-origin: -318px -117px; animation-delay: 0.69s;">
-      <path d="M-318,-117 Q-320,-122 -322,-125" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-322" cy="-125" r="1.5" class="leaf"/>
-      <path d="M-318,-119 Q-316,-121 -314,-123" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-314" cy="-123" r="1.5" class="leaf"/>
-    </g>
   </g>
   <g class="hover-float" style="transform-origin: -294px -123px;">
     <polygon points="-294,-123 -282,-117 -294,-111 -306,-117" class="tile-top" />
@@ -274,12 +286,6 @@
     <polygon points="-246,-123 -234,-117 -246,-111 -258,-117" class="tile-top" />
     <polygon points="-258,-117 -246,-111 -246,-107 -258,-113" class="tile-left" />
     <polygon points="-246,-111 -234,-117 -234,-113 -246,-107" class="tile-right" />
-    <g class="grow" style="transform-origin: -246px -117px; animation-delay: 0.87s;">
-      <path d="M-246,-117 Q-248,-122 -250,-125" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-250" cy="-125" r="1.5" class="leaf"/>
-      <path d="M-246,-119 Q-244,-121 -242,-123" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-242" cy="-123" r="1.5" class="leaf"/>
-    </g>
   </g>
   <g class="hover-float" style="transform-origin: -222px -123px;">
     <polygon points="-222,-123 -210,-117 -222,-111 -234,-117" class="tile-top" />
@@ -290,7 +296,7 @@
     <polygon points="-198,-123 -186,-117 -198,-111 -210,-117" class="tile-top" />
     <polygon points="-210,-117 -198,-111 -198,-107 -210,-113" class="tile-left" />
     <polygon points="-198,-111 -186,-117 -186,-113 -198,-107" class="tile-right" />
-    <g class="grow" style="transform-origin: -198px -117px; animation-delay: 0.67s;">
+    <g class="grow" style="transform-origin: -198px -117px; animation-delay: 1.16s;">
       <path d="M-198,-117 Q-200,-122 -202,-125" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-202" cy="-125" r="1.5" class="leaf"/>
       <path d="M-198,-119 Q-196,-121 -194,-123" class="stem" stroke-width="1" fill="none"/>
@@ -311,6 +317,12 @@
     <polygon points="-282,-117 -270,-111 -282,-105 -294,-111" class="tile-top" />
     <polygon points="-294,-111 -282,-105 -282,-101 -294,-107" class="tile-left" />
     <polygon points="-282,-105 -270,-111 -270,-107 -282,-101" class="tile-right" />
+    <g class="grow" style="transform-origin: -282px -111px; animation-delay: 0.66s;">
+      <path d="M-282,-111 Q-284,-116 -286,-119" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-286" cy="-119" r="1.5" class="leaf"/>
+      <path d="M-282,-113 Q-280,-115 -278,-117" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-278" cy="-117" r="1.5" class="leaf"/>
+    </g>
   </g>
   <g class="hover-float" style="transform-origin: -258px -117px;">
     <polygon points="-258,-117 -246,-111 -258,-105 -270,-111" class="tile-top" />
@@ -331,12 +343,6 @@
     <polygon points="-186,-117 -174,-111 -186,-105 -198,-111" class="tile-top" />
     <polygon points="-198,-111 -186,-105 -186,-101 -198,-107" class="tile-left" />
     <polygon points="-186,-105 -174,-111 -174,-107 -186,-101" class="tile-right" />
-    <g class="grow" style="transform-origin: -186px -111px; animation-delay: 1.39s;">
-      <path d="M-186,-111 Q-188,-116 -190,-119" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-190" cy="-119" r="1.5" class="leaf"/>
-      <path d="M-186,-113 Q-184,-115 -182,-117" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-182" cy="-117" r="1.5" class="leaf"/>
-    </g>
   </g>
   <g class="hover-float" style="transform-origin: -162px -117px;">
     <polygon points="-162,-117 -150,-111 -162,-105 -174,-111" class="tile-top" />
@@ -352,7 +358,7 @@
     <polygon points="-270,-111 -258,-105 -270,-99 -282,-105" class="tile-top" />
     <polygon points="-282,-105 -270,-99 -270,-95 -282,-101" class="tile-left" />
     <polygon points="-270,-99 -258,-105 -258,-101 -270,-95" class="tile-right" />
-    <g class="grow" style="transform-origin: -270px -105px; animation-delay: 1.07s;">
+    <g class="grow" style="transform-origin: -270px -105px; animation-delay: 0.80s;">
       <path d="M-270,-105 Q-272,-110 -274,-113" class="stem" stroke-width="1" fill="none"/>
       <circle cx="-274" cy="-113" r="1.5" class="leaf"/>
       <path d="M-270,-107 Q-268,-109 -266,-111" class="stem" stroke-width="1" fill="none"/>
@@ -393,12 +399,6 @@
     <polygon points="-258,-105 -246,-99 -258,-93 -270,-99" class="tile-top" />
     <polygon points="-270,-99 -258,-93 -258,-89 -270,-95" class="tile-left" />
     <polygon points="-258,-93 -246,-99 -246,-95 -258,-89" class="tile-right" />
-    <g class="grow" style="transform-origin: -258px -99px; animation-delay: 1.15s;">
-      <path d="M-258,-99 Q-260,-104 -262,-107" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-262" cy="-107" r="1.5" class="leaf"/>
-      <path d="M-258,-101 Q-256,-103 -254,-105" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-254" cy="-105" r="1.5" class="leaf"/>
-    </g>
   </g>
   <g class="hover-float" style="transform-origin: -234px -105px;">
     <polygon points="-234,-105 -222,-99 -234,-93 -246,-99" class="tile-top" />
@@ -414,6 +414,12 @@
     <polygon points="-186,-105 -174,-99 -186,-93 -198,-99" class="tile-top" />
     <polygon points="-198,-99 -186,-93 -186,-89 -198,-95" class="tile-left" />
     <polygon points="-186,-93 -174,-99 -174,-95 -186,-89" class="tile-right" />
+    <g class="grow" style="transform-origin: -186px -99px; animation-delay: 1.26s;">
+      <path d="M-186,-99 Q-188,-104 -190,-107" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-190" cy="-107" r="1.5" class="leaf"/>
+      <path d="M-186,-101 Q-184,-103 -182,-105" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-182" cy="-105" r="1.5" class="leaf"/>
+    </g>
   </g>
   <g class="hover-float" style="transform-origin: -162px -105px;">
     <polygon points="-162,-105 -150,-99 -162,-93 -174,-99" class="tile-top" />
@@ -444,17 +450,17 @@
     <polygon points="-198,-99 -186,-93 -198,-87 -210,-93" class="tile-top" />
     <polygon points="-210,-93 -198,-87 -198,-83 -210,-89" class="tile-left" />
     <polygon points="-198,-87 -186,-93 -186,-89 -198,-83" class="tile-right" />
+    <g class="grow" style="transform-origin: -198px -93px; animation-delay: 0.82s;">
+      <path d="M-198,-93 Q-200,-98 -202,-101" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-202" cy="-101" r="1.5" class="leaf"/>
+      <path d="M-198,-95 Q-196,-97 -194,-99" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-194" cy="-99" r="1.5" class="leaf"/>
+    </g>
   </g>
   <g class="hover-float" style="transform-origin: -174px -99px;">
     <polygon points="-174,-99 -162,-93 -174,-87 -186,-93" class="tile-top" />
     <polygon points="-186,-93 -174,-87 -174,-83 -186,-89" class="tile-left" />
     <polygon points="-174,-87 -162,-93 -162,-89 -174,-83" class="tile-right" />
-    <g class="grow" style="transform-origin: -174px -93px; animation-delay: 1.46s;">
-      <path d="M-174,-93 Q-176,-98 -178,-101" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-178" cy="-101" r="1.5" class="leaf"/>
-      <path d="M-174,-95 Q-172,-97 -170,-99" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-170" cy="-99" r="1.5" class="leaf"/>
-    </g>
   </g>
   <g class="hover-float" style="transform-origin: -150px -99px;">
     <polygon points="-150,-99 -138,-93 -150,-87 -162,-93" class="tile-top" />
@@ -485,11 +491,10 @@
     <polygon points="-186,-93 -174,-87 -186,-81 -198,-87" class="tile-top" />
     <polygon points="-198,-87 -186,-81 -186,-77 -198,-83" class="tile-left" />
     <polygon points="-186,-81 -174,-87 -174,-83 -186,-77" class="tile-right" />
-    <g class="grow" style="transform-origin: -186px -87px; animation-delay: 1.02s;">
-      <path d="M-186,-87 Q-188,-92 -190,-95" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-190" cy="-95" r="1.5" class="leaf"/>
-      <path d="M-186,-89 Q-184,-91 -182,-93" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-182" cy="-93" r="1.5" class="leaf"/>
+    <g class="grow" style="transform-origin: -186px -87px; animation-delay: 1.36s;">
+      <line x1="-186" y1="-87" x2="-186" y2="-99" class="stem" stroke-width="1.5" />
+      <polygon points="-186,-103 -181,-95 -191,-95" class="leaf" />
+      <polygon points="-186,-99 -182,-92 -190,-92" class="leaf" />
     </g>
   </g>
   <g class="hover-float" style="transform-origin: -162px -93px;">
@@ -506,6 +511,12 @@
     <polygon points="-114,-93 -102,-87 -114,-81 -126,-87" class="tile-top" />
     <polygon points="-126,-87 -114,-81 -114,-77 -126,-83" class="tile-left" />
     <polygon points="-114,-81 -102,-87 -102,-83 -114,-77" class="tile-right" />
+    <g class="grow" style="transform-origin: -114px -87px; animation-delay: 1.34s;">
+      <path d="M-114,-87 Q-116,-92 -118,-95" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-118" cy="-95" r="1.5" class="leaf"/>
+      <path d="M-114,-89 Q-112,-91 -110,-93" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="-110" cy="-93" r="1.5" class="leaf"/>
+    </g>
   </g>
   <g class="hover-float" style="transform-origin: -246px -87px;">
     <polygon points="-246,-87 -234,-81 -246,-75 -258,-81" class="tile-top" />
@@ -526,11 +537,6 @@
     <polygon points="-174,-87 -162,-81 -174,-75 -186,-81" class="tile-top" />
     <polygon points="-186,-81 -174,-75 -174,-71 -186,-77" class="tile-left" />
     <polygon points="-174,-75 -162,-81 -162,-77 -174,-71" class="tile-right" />
-    <g class="grow" style="transform-origin: -174px -81px; animation-delay: 0.98s;">
-      <line x1="-174" y1="-81" x2="-174" y2="-93" class="stem" stroke-width="1.5" />
-      <polygon points="-174,-97 -169,-89 -179,-89" class="leaf" />
-      <polygon points="-174,-93 -170,-86 -178,-86" class="leaf" />
-    </g>
   </g>
   <g class="hover-float" style="transform-origin: -150px -87px;">
     <polygon points="-150,-87 -138,-81 -150,-75 -162,-81" class="tile-top" />
@@ -546,12 +552,6 @@
     <polygon points="-102,-87 -90,-81 -102,-75 -114,-81" class="tile-top" />
     <polygon points="-114,-81 -102,-75 -102,-71 -114,-77" class="tile-left" />
     <polygon points="-102,-75 -90,-81 -90,-77 -102,-71" class="tile-right" />
-    <g class="grow" style="transform-origin: -102px -81px; animation-delay: 0.22s;">
-      <path d="M-102,-81 Q-104,-86 -106,-89" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-106" cy="-89" r="1.5" class="leaf"/>
-      <path d="M-102,-83 Q-100,-85 -98,-87" class="stem" stroke-width="1" fill="none"/>
-      <circle cx="-98" cy="-87" r="1.5" class="leaf"/>
-    </g>
   </g>
   <g class="hover-float" style="transform-origin: -234px -81px;">
     <polygon points="-234,-81 -222,-75 -234,-69 -246,-75" class="tile-top" />
@@ -607,6 +607,11 @@
     <polygon points="-150,-75 -138,-69 -150,-63 -162,-69" class="tile-top" />
     <polygon points="-162,-69 -150,-63 -150,-59 -162,-65" class="tile-left" />
     <polygon points="-150,-63 -138,-69 -138,-65 -150,-59" class="tile-right" />
+    <g class="grow" style="transform-origin: -150px -69px; animation-delay: 0.86s;">
+      <line x1="-150" y1="-69" x2="-150" y2="-81" class="stem" stroke-width="1.5" />
+      <polygon points="-150,-85 -145,-77 -155,-77" class="leaf" />
+      <polygon points="-150,-81 -146,-74 -154,-74" class="leaf" />
+    </g>
   </g>
   <g class="hover-float" style="transform-origin: -126px -75px;">
     <polygon points="-126,-75 -114,-69 -126,-63 -138,-69" class="tile-top" />
@@ -642,11 +647,6 @@
     <polygon points="-138,-69 -126,-63 -138,-57 -150,-63" class="tile-top" />
     <polygon points="-150,-63 -138,-57 -138,-53 -150,-59" class="tile-left" />
     <polygon points="-138,-57 -126,-63 -126,-59 -138,-53" class="tile-right" />
-    <g class="grow" style="transform-origin: -138px -63px; animation-delay: 1.26s;">
-      <line x1="-138" y1="-63" x2="-138" y2="-75" class="stem" stroke-width="1.5" />
-      <polygon points="-138,-79 -133,-71 -143,-71" class="leaf" />
-      <polygon points="-138,-75 -134,-68 -142,-68" class="leaf" />
-    </g>
   </g>
   <g class="hover-float" style="transform-origin: -114px -69px;">
     <polygon points="-114,-69 -102,-63 -114,-57 -126,-63" class="tile-top" />
@@ -1397,6 +1397,11 @@
     <polygon points="186,57 198,63 186,69 174,63" class="tile-top" />
     <polygon points="174,63 186,69 186,73 174,67" class="tile-left" />
     <polygon points="186,69 198,63 198,67 186,73" class="tile-right" />
+    <g class="grow" style="transform-origin: 186px 63px; animation-delay: 1.40s;">
+      <line x1="186" y1="63" x2="186" y2="51" class="stem" stroke-width="1.5" />
+      <polygon points="186,47 191,55 181,55" class="leaf" />
+      <polygon points="186,51 190,58 182,58" class="leaf" />
+    </g>
   </g>
   <g class="hover-float" style="transform-origin: 54px 63px;">
     <polygon points="54,63 66,69 54,75 42,69" class="tile-top" />
@@ -1432,11 +1437,6 @@
     <polygon points="198,63 210,69 198,75 186,69" class="tile-top" />
     <polygon points="186,69 198,75 198,79 186,73" class="tile-left" />
     <polygon points="198,75 210,69 210,73 198,79" class="tile-right" />
-    <g class="grow" style="transform-origin: 198px 69px; animation-delay: 1.02s;">
-      <line x1="198" y1="69" x2="198" y2="57" class="stem" stroke-width="1.5" />
-      <polygon points="198,53 203,61 193,61" class="leaf" />
-      <polygon points="198,57 202,64 194,64" class="leaf" />
-    </g>
   </g>
   <g class="hover-float" style="transform-origin: 66px 69px;">
     <polygon points="66,69 78,75 66,81 54,75" class="tile-top" />
@@ -1857,6 +1857,12 @@
     <polygon points="342,135 354,141 342,147 330,141" class="tile-top" />
     <polygon points="330,141 342,147 342,151 330,145" class="tile-left" />
     <polygon points="342,147 354,141 354,145 342,151" class="tile-right" />
+    <g class="grow" style="transform-origin: 342px 141px; animation-delay: 1.19s;">
+      <path d="M342,141 Q340,136 338,133" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="338" cy="133" r="1.5" class="leaf"/>
+      <path d="M342,139 Q344,137 346,135" class="stem" stroke-width="1" fill="none"/>
+      <circle cx="346" cy="135" r="1.5" class="leaf"/>
+    </g>
   </g>
   <g class="hover-float" style="transform-origin: 210px 141px;">
     <polygon points="210,141 222,147 210,153 198,147" class="tile-top" />
@@ -1883,11 +1889,6 @@
     <polygon points="294,147 306,153 306,157 294,151" class="tile-left" />
     <polygon points="306,153 318,147 318,151 306,157" class="tile-right" />
   </g>
-  <g class="hover-float" style="transform-origin: 330px 141px;">
-    <polygon points="330,141 342,147 330,153 318,147" class="tile-top" />
-    <polygon points="318,147 330,153 330,157 318,151" class="tile-left" />
-    <polygon points="330,153 342,147 342,151 330,157" class="tile-right" />
-  </g>
   <g class="hover-float" style="transform-origin: 222px 147px;">
     <polygon points="222,147 234,153 222,159 210,153" class="tile-top" />
     <polygon points="210,153 222,159 222,163 210,157" class="tile-left" />
@@ -1908,11 +1909,6 @@
     <polygon points="282,153 294,159 294,163 282,157" class="tile-left" />
     <polygon points="294,159 306,153 306,157 294,163" class="tile-right" />
   </g>
-  <g class="hover-float" style="transform-origin: 318px 147px;">
-    <polygon points="318,147 330,153 318,159 306,153" class="tile-top" />
-    <polygon points="306,153 318,159 318,163 306,157" class="tile-left" />
-    <polygon points="318,159 330,153 330,157 318,163" class="tile-right" />
-  </g>
   <g class="hover-float" style="transform-origin: 234px 153px;">
     <polygon points="234,153 246,159 234,165 222,159" class="tile-top" />
     <polygon points="222,159 234,165 234,169 222,163" class="tile-left" />
@@ -1928,11 +1924,6 @@
     <polygon points="270,159 282,165 282,169 270,163" class="tile-left" />
     <polygon points="282,165 294,159 294,163 282,169" class="tile-right" />
   </g>
-  <g class="hover-float" style="transform-origin: 306px 153px;">
-    <polygon points="306,153 318,159 306,165 294,159" class="tile-top" />
-    <polygon points="294,159 306,165 306,169 294,163" class="tile-left" />
-    <polygon points="306,165 318,159 318,163 306,169" class="tile-right" />
-  </g>
   <g class="hover-float" style="transform-origin: 246px 159px;">
     <polygon points="246,159 258,165 246,171 234,165" class="tile-top" />
     <polygon points="234,165 246,171 246,175 234,169" class="tile-left" />
@@ -1943,34 +1934,19 @@
     <polygon points="258,165 270,171 270,175 258,169" class="tile-left" />
     <polygon points="270,171 282,165 282,169 270,175" class="tile-right" />
   </g>
-  <g class="hover-float" style="transform-origin: 294px 159px;">
-    <polygon points="294,159 306,165 294,171 282,165" class="tile-top" />
-    <polygon points="282,165 294,171 294,175 282,169" class="tile-left" />
-    <polygon points="294,171 306,165 306,169 294,175" class="tile-right" />
-  </g>
   <g class="hover-float" style="transform-origin: 258px 165px;">
     <polygon points="258,165 270,171 258,177 246,171" class="tile-top" />
     <polygon points="246,171 258,177 258,181 246,175" class="tile-left" />
     <polygon points="258,177 270,171 270,175 258,181" class="tile-right" />
-  </g>
-  <g class="hover-float" style="transform-origin: 282px 165px;">
-    <polygon points="282,165 294,171 282,177 270,171" class="tile-top" />
-    <polygon points="270,171 282,177 282,181 270,175" class="tile-left" />
-    <polygon points="282,177 294,171 294,175 282,181" class="tile-right" />
-  </g>
-  <g class="hover-float" style="transform-origin: 270px 171px;">
-    <polygon points="270,171 282,177 270,183 258,177" class="tile-top" />
-    <polygon points="258,177 270,183 270,187 258,181" class="tile-left" />
-    <polygon points="270,183 282,177 282,181 270,187" class="tile-right" />
-    <g class="grow" style="transform-origin: 270px 177px; animation-delay: 0.58s;">
-      <path d="M270,177 Q269,167 270,157" class="stem" stroke-width="2.5" fill="none"/>
-      <path d="M270,167 Q265,162 262,159" class="stem" stroke-width="1.5" fill="none"/>
-      <path d="M270,163 Q275,159 278,155" class="stem" stroke-width="1.5" fill="none"/>
-      <circle cx="270" cy="155" r="6" class="leaf"/>
-      <circle cx="264" cy="159" r="5" class="leaf"/>
-      <circle cx="276" cy="157" r="5" class="leaf"/>
-      <circle cx="267" cy="152" r="4" class="leaf"/>
-      <circle cx="274" cy="153" r="4" class="leaf"/>
+    <g class="grow" style="transform-origin: 258px 171px; animation-delay: 1.24s;">
+      <path d="M258,171 Q257,161 258,151" class="stem" stroke-width="2.5" fill="none"/>
+      <path d="M258,161 Q253,156 250,153" class="stem" stroke-width="1.5" fill="none"/>
+      <path d="M258,157 Q263,153 266,149" class="stem" stroke-width="1.5" fill="none"/>
+      <circle cx="258" cy="149" r="6" class="leaf"/>
+      <circle cx="252" cy="153" r="5" class="leaf"/>
+      <circle cx="264" cy="151" r="5" class="leaf"/>
+      <circle cx="255" cy="146" r="4" class="leaf"/>
+      <circle cx="262" cy="147" r="4" class="leaf"/>
     </g>
   </g>
 </g>
